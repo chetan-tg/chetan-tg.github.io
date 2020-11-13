@@ -1,3 +1,21 @@
+/* text alignment */
+div.cen {
+  text-align: center;
+}
+
+div.lef {
+  text-align: left;
+}
+
+div.rig {
+  text-align: right;
+} 
+
+div.just{
+  text-align: justify;
+} 
+/* */
+
 /* image classes */
 .img_left {
 float: left; 
@@ -12,3 +30,6 @@ margin: 0.5em 0em 0em 0.8em;
 .image img {
 display: block; margin: 0; padding: 0;
 }
+
+/* */
+/* end of css - */
