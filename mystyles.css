@@ -79,9 +79,11 @@ td, th {
   padding: 6px 8px 6px 0px;
   font-size: 15px;}
 
-.sidenav ul li { list-style-type: none; float: bottom; margin: 0em 0em 0em 0em; }
-
-
+.sidenav ul li {
+    list-style-type: none;
+    float: bottom;
+    margin: 0em 0em 0em 0em;
+}
 
 .main {
   margin-top: 200px;
@@ -92,9 +94,6 @@ td, th {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-.homemain {
-  margin-top: 200px;}
 
 .topnav {
   position: fixed;
