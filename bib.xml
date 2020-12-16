@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CATALOG>
+
+    <Book>
+    <TITLE>Structures or why things don't fall down</TITLE>
+    <AUTHOR>J.E.Gordon</AUTHOR>
+    <YEAR>1978 </YEAR>
+    </Book>
+
+    <Book>
+    <TITLE>The Scientist and Engineer's Guide to Digital Signal Processing</TITLE>
+    <AUTHOR>Steven W. Smith</AUTHOR>
+    <YEAR>1997 </YEAR>
+    <LINK>http://www.dspguide.com/pdfbook.htm</LINK>
+    </Book>
+
+    <Weblink>
+        <Link>https://www.youtube.com/user/ControlLectures/videos</Link>
+        <LastAcc>16/12/2020</LastAcc>
+    </Weblink>
+</CATALOG>

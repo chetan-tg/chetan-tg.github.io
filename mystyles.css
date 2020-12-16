@@ -104,4 +104,12 @@ body { margin: 0; padding: 0}
     background-color: #FFFFFF;
     }
 
+/* table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}*/
+
 /* end of css - */
