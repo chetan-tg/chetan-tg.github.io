@@ -83,8 +83,8 @@ body { margin: 0; padding: 0}
 }
 
 .main_resource {
-  margin-top: 100px;
-  margin-left: 300px; /* Same as the width of the sidenav */
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 .main_index {
