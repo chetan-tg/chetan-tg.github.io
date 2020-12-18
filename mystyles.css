@@ -38,18 +38,8 @@ display: block; margin: 0; padding: 0;
   flex-direction: row;
 }
 
-	/* header */
-	#inner_header { padding-bottom: 0.2em;  }
-	#inner_header h1 { }
-	#inner_header h2 {float: right;	padding: 2.0em 0.20em 0m 0em; }
-	/* navigation */
-	#inner_header ul { list-style-type: none; padding: 0.2em 0em 0.2em 0.4em; display:inline; text-align:center; }
-	#inner_header ul li { list-style-type: none; float: left; margin: 0em 0.3em 0em 0em; }
-	#inner_header br { display: none; }
 
-/* */
-
-table {
+.table {
   width: 100%;
 }
 
@@ -92,6 +82,11 @@ body { margin: 0; padding: 0}
   margin-left: 300px; /* Same as the width of the sidenav */
 }
 
+.main_index {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  }
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -103,6 +98,16 @@ body { margin: 0; padding: 0}
   width: 100%;
     background-color: #FFFFFF;
     }
+
+.bottnav {
+    text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    background-color: #FFFFFF;
+    }
+.bottnav ul { list-style-type: none; padding: 0.2em 0em 0.2em 0.4em; display:inline; text-align:center; }
+.bottnav ul li { list-style-type: none; float:right ; margin: 0em 0.3em 0em 0em; }
 
 /* table,th,td {
   border : 1px solid black;
