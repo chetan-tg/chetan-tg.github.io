@@ -79,7 +79,7 @@ body { margin: 0; padding: 0}
 
 .main {
   margin-top: 200px;
-  margin-left: 300px; /* Same as the width of the sidenav */
+  margin-left: 0px; /* Same as the width of the sidenav */
 }
 
 .main_resource {

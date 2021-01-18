@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="resources updated">
+      <change beforePath="$PROJECT_DIR$/mynotes/notes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mystyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/mystyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/resources.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ktDbc84CPRg2xCdfHixNLTH19l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\u0104388\PycharmProjects\mysite\mynotes" />
+      <recent name="C:\Users\u0104388\PycharmProjects\mysite" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="" />
+      <created>1606511067045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606511067045</updated>
+    </task>
+    <task id="LOCAL-00001" summary="My notes added">
+      <created>1606517562989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606517562989</updated>
+    </task>
+    <task id="LOCAL-00002" summary="My notes added">
+      <created>1606517877135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606517877135</updated>
+    </task>
+    <task id="LOCAL-00003" summary="My notes added">
+      <created>1606518286190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606518286190</updated>
+    </task>
+    <task id="LOCAL-00004" summary="My notes added">
+      <created>1606518379454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606518379454</updated>
+    </task>
+    <task id="LOCAL-00005" summary="css corrected after addign notes page">
+      <created>1606519314891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606519314891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adress reordered">
+      <created>1606521098941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606521098941</updated>
+    </task>
+    <task id="LOCAL-00007" summary="last updated note">
+      <created>1606521584383</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606521584383</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adjusted pdf size">
+      <created>1606524988147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606524988147</updated>
+    </task>
+    <task id="LOCAL-00009" summary="resources added">
+      <created>1608152163141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608152163141</updated>
+    </task>
+    <task id="LOCAL-00010" summary="resources, index nav updated">
+      <created>1608303749206</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608303749206</updated>
+    </task>
+    <task id="LOCAL-00011" summary="resources, css updated">
+      <created>1608304332489</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608304332489</updated>
+    </task>
+    <task id="LOCAL-00012" summary="resources updated">
+      <created>1608304629906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608304629906</updated>
+    </task>
+    <task id="LOCAL-00013" summary="resources updated">
+      <created>1608304740513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608304740513</updated>
+    </task>
+    <task id="LOCAL-00014" summary="resources updated">
+      <created>1608304890047</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608304890047</updated>
+    </task>
+    <task id="LOCAL-00015" summary="resources updated">
+      <created>1608304977792</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608304977792</updated>
+    </task>
+    <task id="LOCAL-00016" summary="resources updated">
+      <created>1608305033623</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608305033623</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update date">
+      <created>1608320613127</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608320613127</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update date">
+      <created>1608333318700</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608333318700</updated>
+    </task>
+    <task id="LOCAL-00019" summary="resource added">
+      <created>1609099545530</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609099545530</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cleanup">
+      <created>1609156359437</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609156359437</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cleanup">
+      <created>1609161369331</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609161369331</updated>
+    </task>
+    <task id="LOCAL-00022" summary="bookmarks added">
+      <created>1609684825333</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609684825333</updated>
+    </task>
+    <task id="LOCAL-00023" summary="resources updated">
+      <created>1609687906824</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609687906824</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My notes added" />
+    <MESSAGE value="css corrected after addign notes page" />
+    <MESSAGE value="adress reordered" />
+    <MESSAGE value="last updated note" />
+    <MESSAGE value="adjusted pdf size" />
+    <MESSAGE value="resources added" />
+    <MESSAGE value="resources, index nav updated" />
+    <MESSAGE value="resources, css updated" />
+    <MESSAGE value="update date" />
+    <MESSAGE value="resource added" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="bookmarks added" />
+    <MESSAGE value="resources updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="resources updated" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="0" key="SettingsEditor" timestamp="1606517493823">
+      <screen x="0" y="0" width="1170" height="618" />
+    </state>
+    <state x="94" y="0" key="SettingsEditor/0.0.1170.618@0.0.1170.618" timestamp="1606517493823" />
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1609692006421">
+      <screen x="0" y="0" width="1170" height="618" />
+    </state>
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1609692006421" />
+    <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606943958522">
+      <screen x="0" y="0" width="1170" height="618" />
+    </state>
+    <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1170.618@0.0.1170.618" timestamp="1606943958522" />
+  </component>
+</project>
