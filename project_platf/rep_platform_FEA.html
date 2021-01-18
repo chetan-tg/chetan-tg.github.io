@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <meta charset="UTF-8">
+    <title>FEA on metal platform</title>
+</head>
+<body>
+<header>
+<h3>FEA on metal platform</h3>
+    <p>using SOL 101 and SOL 103 / Tutorial SOL 103 - Response Dynamics in NX Simcenter</p>
+    <p> - Chetan G. <br> 06/2020 (last edited: 01/2021)</p>
+</header>
+<hr>
+
+The following pages document the steps followed during the static and dynamics analysis done on a metal platform. This also acts as a draft version of tutorial on SOL 103 in NX Simcenter.
+
+<h4> Platform - CAD </h4>
+
+<figure>
+<img src="01_platform.png" width="500">
+<figcaption> Fig: CAD model of the structure. </figcaption>
+    </figure>
+
+<figure>
+<img src="02_platform_i.png" width="500">
+<figcaption> Fig: Idealized CAD model of the structure. </figcaption>
+    </figure>
+
+<h4> Meshing </h4>
+
+<p>The structure is meshed using 2D mesh - CQUAD8. 1D connection elements RBE2 and RBE3 are used to connect elements that are connected by bolts and welding respectively. (Note: use of RBE elements may encounter fatal error during simulation due to conflicting degrees of freedom assigned to different elements sharing the dependent node of RBE elements. Carefully assign the constraints on elements or set AutoMPC to YES.)</p>
+
+<p> A vibrating chute is mounted on the structure with 3 legs. The static load of each of these legs are added as scalar mass elements (0-D element) Cmass1. (Note: 0-D elements pass only displacements and not forces during simulation)</p>
+
+<figure>
+<img src="03_platform_mesh.png" width="500">
+<figcaption> Fig: Meshed model of the structure. </figcaption>
+    </figure>
+
+<h4>Static simulation (SOL 101)</h4>
+<figure>
+<img src="04_SOL101.png" width="500">
+<figcaption> Fig: Constraints and loads are applied in static solution SOL101. </figcaption>
+    </figure>
+
+<figure>
+<img src="Stat_VMS_v3.png" width="500">
+<figcaption> Fig: Result (von Mises stress) of solution SOL101. </figcaption>
+    </figure>
+
+<h4>Response Dynamics (SOL 103)</h4>
+<p> SOL 103 - Response Dynamics is performed to find the natural frequencies and based on this result a new simulation process is added. In this simulation process dynamic loads (vertical and horizontal) are added as new events.</p>
+
+<figure>
+<img src="07_lanczos.png" width="400">
+<figcaption> Fig: During dynamic subcase of SOL103, Lanczos eigenvalue method was chosen with the settings shown in the figure. </figcaption>
+    </figure>
+
+<figure>
+<img src="modes.png" height="500">
+<figcaption> Fig: Natural frequencies of structure as solved by SOL 103. </figcaption>
+    </figure>
+
+
+<figure>
+<img src="09_excitation.png" width="500">
+<figcaption> Fig: Applying dynamic loads as new event with excitations are shown in the screenshots. </figcaption>
+    </figure>
+
+<figure>
+<img src="10_excitation_3Hz.png" width="500">
+<figcaption> Fig: The new excitation applied at one of the legs of the chute is given in the figure above. A sine wave of 3Hz is applied in vertical and horizontal directions (X sweep and Y sweep.) </figcaption>
+    </figure>
+
+<figure>
+<img src="Response_function_v3.png" width="500">
+<figcaption> Fig: Evaluating function response - nodal with respect to the chosen node gives the above results. </figcaption>
+    </figure>
+
+<h3>References</h3>
+<ol>
+    <li>
+        <br> <a href="https://simulatemore.mscsoftware.com/choosing-the-right-finite-element-msc-nastran/">https://simulatemore.mscsoftware.com/choosing-the-right-finite-element-msc-nastran/</a>
+    </li>
+</ol>
+
+</body>
+</html>

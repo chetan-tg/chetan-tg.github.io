@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="resources, my notes clean up">
+      <change afterPath="$PROJECT_DIR$/project_platf/01_platform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/02_platform_i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/03_platform_mesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/04_SOL101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/07_lanczos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/08_newprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/09_excitation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/10_excitation_3Hz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/Modes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/Response_function_v3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/Stat_VMS_v3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/rep_platform_FEA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_platf/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynotes/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/resources.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +52,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_platf" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\u0104388\PycharmProjects\mysite\project_platf" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\u0104388\PycharmProjects\mysite\mynotes" />
       <recent name="C:\Users\u0104388\PycharmProjects\mysite" />
@@ -225,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610996030171</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="resources, my notes clean up">
+      <created>1610996201041</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610996201041</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -265,10 +288,10 @@
       <screen x="0" y="0" width="1170" height="618" />
     </state>
     <state x="94" y="0" key="SettingsEditor/0.0.1170.618@0.0.1170.618" timestamp="1606517493823" />
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1610996040102">
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1610996204253">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1610996040102" />
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1610996204253" />
     <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606943958522">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
