@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="resources, my notes clean up">
-      <change afterPath="$PROJECT_DIR$/project_platf/01_platform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/02_platform_i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/03_platform_mesh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/04_SOL101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/07_lanczos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/08_newprocess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/09_excitation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/10_excitation_3Hz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/Modes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/Response_function_v3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/Stat_VMS_v3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/rep_platform_FEA.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_platf/style.css" afterDir="false" />
+    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="project FEA platform added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mynotes/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/resources.html" afterDir="false" />
     </list>
@@ -248,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610996201041</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="project FEA platform added">
+      <created>1610997234754</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610997234754</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -281,17 +275,18 @@
     <MESSAGE value="bookmarks added" />
     <MESSAGE value="resources updated" />
     <MESSAGE value="resources, my notes clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="resources, my notes clean up" />
+    <MESSAGE value="project FEA platform added" />
+    <option name="LAST_COMMIT_MESSAGE" value="project FEA platform added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="0" key="SettingsEditor" timestamp="1606517493823">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
     <state x="94" y="0" key="SettingsEditor/0.0.1170.618@0.0.1170.618" timestamp="1606517493823" />
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1610996204253">
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1610997239080">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1610996204253" />
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1610997239080" />
     <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606943958522">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
