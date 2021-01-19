@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="project FEA platform added">
+    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="css update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mystyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/mystyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynotes/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/resources.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610997740401</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="css update">
+      <created>1610999838707</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610999838707</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -291,17 +297,18 @@
     <MESSAGE value="resources updated" />
     <MESSAGE value="resources, my notes clean up" />
     <MESSAGE value="project FEA platform added" />
-    <option name="LAST_COMMIT_MESSAGE" value="project FEA platform added" />
+    <MESSAGE value="css update" />
+    <option name="LAST_COMMIT_MESSAGE" value="css update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="0" key="SettingsEditor" timestamp="1606517493823">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
     <state x="94" y="0" key="SettingsEditor/0.0.1170.618@0.0.1170.618" timestamp="1606517493823" />
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1610997743003">
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1610999841478">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1610997743003" />
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1610999841478" />
     <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606943958522">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
