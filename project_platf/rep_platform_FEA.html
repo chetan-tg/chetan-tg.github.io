@@ -30,7 +30,9 @@ The following pages document the steps followed during the static and dynamics a
 
 <h4> Meshing </h4>
 
-<p>The structure is meshed using 2D mesh - CQUAD8. 1D connection elements RBE2 and RBE3 are used to connect elements that are connected by bolts and welding respectively. (Note: use of RBE elements may encounter fatal error during simulation due to conflicting degrees of freedom assigned to different elements sharing the dependent node of RBE elements. Carefully assign the constraints on elements or set AutoMPC to YES.)</p>
+<p>The structure is meshed using 2D mesh - CQUAD8. 1D connection elements RBE2 and RBE3 are used to connect elements that are connected by bolts and welding respectively. (RBE2 transmits the displacements and RBE3 transmits the Loads).</p>
+
+<p>(Note: use of RBE elements may encounter fatal error during simulation due to conflicting degrees of freedom assigned to different elements sharing the dependent node of RBE elements. Carefully assign the constraints on elements or set AutoMPC to YES.)</p>
 
 <p> A vibrating chute is mounted on the structure with 3 legs. The static load of each of these legs are added as scalar mass elements (0-D element) Cmass1. (Note: 0-D elements pass only displacements and not forces during simulation)</p>
 

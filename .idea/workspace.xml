@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="bookmarks updated" />
+    <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="basquin added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_platf/rep_platform_FEA.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_platf/rep_platform_FEA.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,16 +39,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_platf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fatigue" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\u0104388\PycharmProjects\mysite\project_platf" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\u0104388\PycharmProjects\mysite\mynotes" />
       <recent name="C:\Users\u0104388\PycharmProjects\mysite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\u0104388\PycharmProjects\mysite\fatigue" />
+      <recent name="C:\Users\u0104388\PycharmProjects\mysite\project_platf" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -267,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611060691338</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="basquin added">
+      <created>1611070301345</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611070301345</updated>
+    </task>
+    <task id="LOCAL-00032" summary="basquin added">
+      <created>1611070317086</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1611070317086</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -303,17 +321,18 @@
     <MESSAGE value="project FEA platform added" />
     <MESSAGE value="css update" />
     <MESSAGE value="bookmarks updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookmarks updated" />
+    <MESSAGE value="basquin added" />
+    <option name="LAST_COMMIT_MESSAGE" value="basquin added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="94" y="0" key="SettingsEditor" timestamp="1606517493823">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
     <state x="94" y="0" key="SettingsEditor/0.0.1170.618@0.0.1170.618" timestamp="1606517493823" />
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1611060694704">
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1611070319879">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1611060694704" />
+    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1611070319879" />
     <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606943958522">
       <screen x="0" y="0" width="1170" height="618" />
     </state>
