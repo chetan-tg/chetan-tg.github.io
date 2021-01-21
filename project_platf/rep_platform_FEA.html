@@ -30,7 +30,7 @@ The following pages document the steps followed during the static and dynamics a
 
 <h4> Meshing </h4>
 
-<p>The structure is meshed using 2D mesh - CQUAD8. 1D connection elements RBE2 and RBE3 are used to connect elements that are connected by bolts and welding respectively. (RBE2 transmits the displacements and RBE3 transmits the Loads).</p>
+<p>The structure is meshed using 2D mesh - CQUAD8. 1D connection elements RBE2 and RBE3 are used to connect elements that are connected by bolts and welding respectively. ("RBE2 transmits the displacements and RBE3 transmits the Loads"; RBE2 is a rigid element which makes a stiff connection).</p>
 
 <p>(Note: use of RBE elements may encounter fatal error during simulation due to conflicting degrees of freedom assigned to different elements sharing the dependent node of RBE elements. Carefully assign the constraints on elements or set AutoMPC to YES.)</p>
 
