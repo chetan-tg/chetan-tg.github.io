@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+</style>
+
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+    $("#includedContent").load("allplots.html");
+    });
+  </script>
+
+</head>
+<body>
+
+<h2 style="text-align:center">Friction Plate Fatigue Testing</h2>
+<!--<h3 style="text-align:center">Nov 2020</h3>-->
+
+<hr>
+
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <h3 style="text-align:center; color:blue">Dual Clutch Transmission</h3>
+      <img class="center" src="Dual-clutch_transmission.svg" style="width:75%">
+<figcaption> <a href="https://en.wikipedia.org/wiki/Dual-clutch_transmission#/media/File:Dual-clutch_transmission.svg">[src]</a> </figcaption>
+
+      <ul>
+      <li>In a DCT one clutch drives odd numbered gears and the other clutch drives the even numbered gears. </li>
+      <li> In a DCT an odd gear can be preselected while the vehicle is in an even gear and vice versa, which makes it quite fast for gear shifts. </li>
+      </ul>
+  </div>
+
+      <div class="mySlides1">
+    <h3 style="text-align:center; color:blue">Clutch Pack</h3>
+      <img class="center" src="1-s2.0-S0043164815002033-gr1_lrg.jpg" style="width:75%">
+<figcaption> <a href="https://ars.els-cdn.com/content/image/1-s2.0-S0043164815002033-gr1_lrg.jpg">[src]</a> </figcaption>
+
+      <ul>
+      <li>Clutches are the interface between engine and transmission in vehicle drivetrains. </li>
+      <li> During the development of the wet clutch system in the Dual Clutch Transmissions, there is a need to know the durability and the friction behaviour of the clutch packs. </li>
+      </ul>
+  </div>
+
+          <div class="mySlides1">
+    <h3 style="text-align:center; color:blue">Drive Cycle</h3>
+      <img class="center" src="56835043.jpg" style="width:75%">
+<figcaption> <a href="https://timesofindia.indiatimes.com/thumb/msid-56835043,imgsize-83862,width-400,resizemode-4/56835043.jpg">[src]</a> </figcaption>
+
+      <ul>
+      <li>Clutches are the interface between engine and transmission in vehicle drivetrains. </li>
+      <li> During the development of the wet clutch system in the Dual Clutch Transmissions, there is a need to know the durability and the friction behaviour of the clutch packs. </li>
+      </ul>
+  </div>
+
+
+
+
+
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+
+<hr>
+
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides0"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
+
+</body>
+</html>
