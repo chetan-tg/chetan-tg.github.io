@@ -67,9 +67,12 @@ img.center {
 
 
 <div class="slideshow-container">
+
+
+
   <div class="mySlides1">
     <h3 style="text-align:center; color:blue">Dual Clutch Transmission</h3>
-      <img class="center" src="Dual-clutch_transmission.svg" style="width:75%">
+      <img class="center" src="Dual-clutch_transmission.svg" style="width:50%">
 <figcaption> <a href="https://en.wikipedia.org/wiki/Dual-clutch_transmission#/media/File:Dual-clutch_transmission.svg">[src]</a> </figcaption>
 
       <ul>
@@ -91,22 +94,52 @@ img.center {
 
           <div class="mySlides1">
     <h3 style="text-align:center; color:blue">Drive Cycle</h3>
-      <img class="center" src="56835043.jpg" style="width:75%">
+      <img class="center" src="56835043.jpg" style="width:40%">
 <figcaption> <a href="https://timesofindia.indiatimes.com/thumb/msid-56835043,imgsize-83862,width-400,resizemode-4/56835043.jpg">[src]</a> </figcaption>
 
       <ul>
-      <li>Clutches are the interface between engine and transmission in vehicle drivetrains. </li>
-      <li> During the development of the wet clutch system in the Dual Clutch Transmissions, there is a need to know the durability and the friction behaviour of the clutch packs. </li>
+      <li>The first task is to implement a drive cycle to test the durability of the clutches.  This cycle is repeated until the theoretical lifetime has been reached. </li>
+      <li> For this task: three vehicle launches with increasing road slope are  defined as a drive cycle. In co-operation with the Test Rigs Software Engineer, this  cycle on the vehicles is converted to a cycle that is suitable to be implemented on ETR. </li>
       </ul>
   </div>
 
+ <div class="mySlides1">
+    <h3 style="text-align:center; color:blue">Life cycle calculation using thermal SN curve</h3>
+      <img class="center" src="sncurve.png" style="width:50%">
+<figcaption> <a href="https://www.researchgate.net/profile/Kamarul-Ariffin-Zakaria/publication/249645829/figure/fig4/AS:298240990826509@1448117601919/Normal-S-N-curve-of-AA6061-T6-tested-at-room-temperature.png">[src]</a> </figcaption>
 
+      <ul>
+      <li>Based on the thermal model and the measured clutch interface temperature, and looking up on the thermal SN curve provided by the friction plate supplier (Borg-Warner),the number of cycles to achieve full life and damage of each cycle is calculated. </li>
+      </ul>
+  </div>
 
+ <div class="mySlides1">
+    <h3 style="text-align:center; color:blue">FPD Tests on ETR</h3>
+      <img class="center" src="ETR.jpg" style="width:40%">
+<figcaption> <a href="https://www.automotivetestingtechnologyinternational.com/wp-content/uploads/2019/09/New-ZF-E-Mobility-Test-Rig-.jpg">[src]</a> </figcaption>
 
+      <ul>
+      <li>The second task is to investigate friction deterioration. To this end- a number of friction plate durability (FPD) tests and friction characterization tests are to be performed on Endurance Test Rigs (ETR) at different stages of the transmission development.</li>
+      </ul>
+  </div>
 
+ <div class="mySlides1">
+    <h3 style="text-align:center; color:blue">Friction Characterization</h3>
+      <img class="center" src="frictioncharacter.jpg" style="width:25%">
+<figcaption> <a href="https://ars.els-cdn.com/content/image/1-s2.0-S0301679X07001995-gr9.jpg">[src]</a> </figcaption>
+
+      <ul>
+      <li>a number of friction characterization tests were executed on the ETR on different transmissions that had undergone a different type of endurance tests.</li>
+          <li> During these tests, the friction measurement cycles are executed to be able to plot the friction coefficients for a wide range of slipping speed, nominal surface pressure, interface temperature and oil contamination.</li>
+          <li> The clutch lifetime achieved and the plots of the friction coefficients at the
+different stages of the clutch lifetime were reported to the clutch domain owner.</li>
+      </ul>
+  </div>
 
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+
+
 </div>
 
 
