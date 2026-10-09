@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,31 +23,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="hamming's quote added">
+      <change afterPath="$PROJECT_DIR$/index.htmldisabled" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mynotes/resources.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work_page/work.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynotes/FPDT/FPDT.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/FPDT/FPDT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mynotes/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mynotes/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/mynotes/resources.htmldisabled" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mystyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/mystyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/photo.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chetan-tg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chetan-tg/chetan-tg.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;09c682ac-9af5-4dea-b1cb-44083a681903&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001471933383412" />
+      <entry key="S2" value="1.1101468391370866" />
+      <entry key="S5" value="1.4137985565014066" />
+      <entry key="S10" value="1.6436569548728817" />
+      <entry key="S30" value="1.9384542144583332" />
+      <entry key="S60" value="2.280508762782352" />
+      <entry key="M2" value="2.9746177311375694" />
+      <entry key="M5" value="5.362417338229096" />
+      <entry key="M10" value="14.212062178489143" />
+      <entry key="M15" value="28.30182248801987" />
+      <entry key="M30" value="90.56868595007326" />
+      <entry key="H1" value="224.024745878654" />
+      <entry key="H2" value="408.5890861184187" />
+      <entry key="H4" value="581.7223995020106" />
+      <entry key="D1" value="805.675094029015" />
+      <entry key="W1" value="854.5036913696608" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.490544029671819E-158" />
+      <entry key="S10" value="1.2208783844723523E-79" />
+      <entry key="S30" value="4.9608656794070715E-27" />
+      <entry key="S60" value="7.043341308929358E-14" />
+      <entry key="M2" value="2.653929409183555E-7" />
+      <entry key="M5" value="0.0023418320576902526" />
+      <entry key="M10" value="0.048392737039015025" />
+      <entry key="M15" value="0.13285010261511954" />
+      <entry key="M30" value="0.3764308459678675" />
+      <entry key="H1" value="0.7900537229227702" />
+      <entry key="H2" value="1.5208718971907746" />
+      <entry key="H4" value="2.373329631993322" />
+      <entry key="D1" value="3.648951685660201" />
+      <entry key="W1" value="3.9474188960377465" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9265880618903709" />
+      <entry key="MS500" value="0.9850096112243143" />
+      <entry key="S2" value="1.1055809474762053" />
+      <entry key="S5" value="1.4111290908006908" />
+      <entry key="S10" value="1.6420033437160584" />
+      <entry key="S30" value="1.9377249590750527" />
+      <entry key="S60" value="2.2790975077170654" />
+      <entry key="M2" value="2.971174810667953" />
+      <entry key="M5" value="5.3606559097281" />
+      <entry key="M10" value="14.257081480385606" />
+      <entry key="M15" value="28.431608592413475" />
+      <entry key="M30" value="90.94219645192891" />
+      <entry key="H1" value="224.81150006421373" />
+      <entry key="H2" value="410.10656634667396" />
+      <entry key="H4" value="584.093059941932" />
+      <entry key="D1" value="809.3233681049818" />
+      <entry key="W1" value="858.4510058575127" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="1ktDbc84CPRg2xCdfHixNLTH19l" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML&#10;XML&#10;Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fatigue" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Optimize.html.executor": "Run",
+    "JavaScript Debug.defaults.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.resources.html.executor": "Run",
+    "JavaScript Debug.work.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/ctg/DATA/pyprojects/homepage/mynotes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mynotes" />
       <recent name="C:\Users\u0104388\PycharmProjects\mysite\fatigue" />
       <recent name="C:\Users\u0104388\PycharmProjects\mysite\project_platf" />
     </key>
@@ -54,6 +167,14 @@
       <recent name="C:\Users\u0104388\PycharmProjects\mysite" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.10968.92" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +183,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606511067045</updated>
+      <workItem from="1789818302121" duration="1120000" />
+      <workItem from="1789823516022" duration="453000" />
+      <workItem from="1789842795201" duration="7259000" />
+      <workItem from="1791572561462" duration="10899000" />
     </task>
     <task id="LOCAL-00001" summary="My notes added">
       <created>1606517562989</created>
@@ -353,6 +478,9 @@
     <option name="localTasksCounter" value="42" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
@@ -366,7 +494,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My notes added" />
@@ -393,19 +520,5 @@
     <MESSAGE value="Hamming's book link added" />
     <MESSAGE value="hamming's quote added" />
     <option name="LAST_COMMIT_MESSAGE" value="hamming's quote added" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="94" y="0" key="SettingsEditor" timestamp="1606517493823">
-      <screen x="0" y="0" width="1170" height="618" />
-    </state>
-    <state x="94" y="0" key="SettingsEditor/0.0.1170.618@0.0.1170.618" timestamp="1606517493823" />
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2" timestamp="1614024009156">
-      <screen x="0" y="0" width="1170" height="618" />
-    </state>
-    <state x="178" y="42" key="Vcs.Push.Dialog.v2/0.0.1170.618@0.0.1170.618" timestamp="1614024009156" />
-    <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606943958522">
-      <screen x="0" y="0" width="1170" height="618" />
-    </state>
-    <state x="403" y="223" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1170.618@0.0.1170.618" timestamp="1606943958522" />
   </component>
 </project>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Chetan's Homepage</title>
+<link rel="stylesheet" type="text/css" href="mystyles.css">
+  <!-- version 1.0 - created on 13-Nov-2020 -->
+</head>
+
+<!--<body style="background-color:#F6F1F0;">-->
+<body>
+<div>
+<h1> Chetan Giraddi </h1>
+</div>
+<div class="main_index">
+    <hr/>
+
+    <p style="text-align:right"><q><i>Freedom | Truth | Humor </p>
+
+<div class="image img_left">
+<img src = "photo.jpg" width = "140" height = "auto" alt = "Chetan" /> 
+</div>
+
+
+<h4><a id="about"> Welcome to my homepage. </a></h4>
+<div class="just">
+<p>I am Chetan, a mechanical engineer with 9+ years of work experience. </p>
+
+<p> -- Page under construction --</p>
+
+</div>
+
+<div class="footer">
+<hr/>
+    <ul>
+        <li> <a href="#contact">Contact |</a> </li>
+        <li> <a href="/mynotes/resources.html"> &#9; Notes and References |</a> </li>
+        <li> <a href="#projects">Projects |</a> </li>
+        <li> <a href="#about">About Me |</a> </li>
+    </ul>
+
+    <p style="font-size:12px"> <i>Last updated on:<time datetime="2021-03-21 23:59"> 21-Mar-2021 </time></i> </p>
+</div>
+</body>
+</html>
