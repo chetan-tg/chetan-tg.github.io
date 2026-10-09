@@ -1,0 +1,37 @@
+% <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}" class="nav-logo"><strong>{{ site.title }}</strong></a>
+        <div class="nav-links">
+          <a href="#" class="nav-item">Werk/carrière</a>
+          <a href="/mynotes/resources" class="nav-item">Bronnen</a>
+          <a href="#" class="nav-item">Blog</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      {{ content }}
+
+        {% if page.last_modified_at %}
+      <footer class="page-footer" style="margin-top: 50px; border-top: 1px dashed #e0e0e0; padding-top: 15px; font-size: 0.85rem; color: #777; text-align: right; ">
+        <p><em>Laatst bijgewerkt: {{ page.last_modified_at | date: "%B %d, %Y" }}</em></p>
+      </footer>
+      {% endif %}
+    </div>
+  </main>
+
+</body>
+</html>

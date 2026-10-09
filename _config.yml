@@ -1,0 +1,7 @@
+title: Chetan Giraddi
+description: Personal homepage
+url: "https://github.io"
+baseurl: "" 
+
+# Tell Jekyll to use basic markdown rendering
+markdown: kramdown

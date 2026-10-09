@@ -1,0 +1,82 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: #16a085;
+  font-size: 2.2rem;
+}
+
+.nav-links {
+  align-self: flex-end;   /* 👈 Aligns them to the right edge */
+  margin-top: 80px;       /* 👈 Pushes the menu exactly one space down */
+}
+
+.nav-links .nav-item {
+  padding-top: 40px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #666;
+}
+
+.nav-links .nav-item:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.site-main {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+a {
+  color: #0066cc;
+}
+
+.page-footer p {
+  text-align: right !important;
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center !important;
+}

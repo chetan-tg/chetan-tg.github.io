@@ -1,0 +1,137 @@
+/* text alignment */
+div.cen {
+  text-align: center;
+}
+
+div.lef {
+  text-align: left;
+}
+
+div.rig {
+  text-align: right;
+} 
+
+div.just{
+  text-align: justify;
+} 
+/* */
+
+/* image classes */
+.img_left {
+float: left; 
+margin: 0.5em 0.8em 0em 0em;	
+}
+
+.img_right {
+float: right; 
+margin: 0.5em 0em 0em 0.8em;
+}
+
+.image img {
+display: block; margin: 0; padding: 0;
+}
+
+/* */
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.table {
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+/* */
+
+/* */
+.tab { margin-left: 40px; }
+/* */
+
+body { margin: 10px; padding: 0}
+
+.sidenav {
+  margin-top: 200px;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 0px;
+  font-size: 15px;}
+
+.sidenav ul li {
+    list-style-type: none;
+    float: bottom;
+    margin: 0em 0em 0em 0em;
+}
+
+.main {
+  margin-top: 200px;
+  margin-left: 0px; /* Same as the width of the sidenav */
+}
+
+.main_resource {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.main_index {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.topnav {
+  position: static;
+  top: 0;
+  width: 100%;
+    background-color: #FFFFFF;
+    }
+
+.bottnav {
+    text-align: left;
+  position: static;
+  bottom: 0;
+  width: 100%;
+    background-color: #FFFFFF;
+    }
+.bottnav ul { list-style-type: none; padding: 0.2em 0em 0.2em 0.4em; display:inline; text-align:center; }
+.bottnav ul li { list-style-type: none; float:right ; margin: 0em 0.3em 0em 0em; }
+
+.footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  background-color: #FFFFFF;
+}
+.footer ul { list-style-type: none; padding: 0.2em 0em 0.2em 0.4em; display:inline; text-align:center; }
+.footer ul li { list-style-type: none; float:right ; margin: 0em 0.3em 0em 0em; }
+
+
+
+/* table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}*/
+
+/* end of css - */
