@@ -14,7 +14,7 @@ last_modified_at: 2026-10-09
 
 * [My First-Run Guide: FEA using SOL103 - Response Dynamics](../project_platf/rep_platform_FEA)
 
-* [My First-Run Guide: NX Durability Specialist](../fatigue/Manual_Durability.html)
+* [My First-Run Guide: NX Durability](../fatigue/Manual_Durability.html)
 
 * [Basquin Equation](../fatigue/Basquin.html)
 
