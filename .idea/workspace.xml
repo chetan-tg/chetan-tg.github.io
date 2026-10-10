@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7e5879-2f9e-45df-ad86-100fb33a7af8" name="Default Changelist" comment="minor changes">
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/mynotes/FPDT/FPDT.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/mynotes/FPDT/FPDT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/work_page/work.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_page/work.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +183,7 @@
       <workItem from="1789842795201" duration="7259000" />
       <workItem from="1791572561462" duration="11636000" />
       <workItem from="1791585546672" duration="87000" />
-      <workItem from="1791623228938" duration="407000" />
+      <workItem from="1791623228938" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="My notes added">
       <created>1606517562989</created>
@@ -510,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791623596069</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1791623683399</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1791623683399</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
