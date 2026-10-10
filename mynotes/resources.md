@@ -12,7 +12,9 @@ last_modified_at: 2026-10-09
 
 * [Friction Plate Fatigue Testing](FPDT/FPDT.html)
 
-* [FEA on metal platform using SOL101 and SOL103](../project_platf/rep_platform_FEA)
+* [My First-Run Guide: FEA using SOL103 - Response Dynamics](../project_platf/rep_platform_FEA)
+
+* [My First-RUn Guide: NX Durability Specialist](../fatigue/Manual_Durability.html)
 
 * [Basquin Equation](../fatigue/Basquin.html)
 

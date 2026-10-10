@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <title>NX Durability Specialist: My First-Run Guide</title>
+
+</head>
+<body>
+
+<header>
+<h3> NX Durability Specialist: My First-Run Guide</h3>
+    <p> -Chetan G. <br> <time datetime="2021-01-20">20/01/2021</time></p>
+</header>
+<hr>
+
+<figure>
+<img src="NXDurability/01-new.png" width="35%">
+<figcaption> Fig: (1) Go to Durability tab in NX Simcenter. Select New Durability Simulation. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/02-name.png" width="20%">
+<figcaption> Fig: (2a) Give a recognizable name to the durability simulation. (2b) Click OK.  </figcaption>
+    </figure> <br>
+
+<p> New durability simulation is created and can be seen in the Simulation Navigator. </p>
+<br>
+
+<figure>
+<img src="NXDurability/04-newevent.png" width="35%">
+<figcaption> Fig: (3) Right click on the durability simulation and select "New Event". Select "Transient" option.  </figcaption>
+    </figure> <br>
+
+<ul>
+    <p> There are three types of events: static, transient, and random.</p>
+    <p> Static event supports the following solutions: </p>
+    <span style="font-size:75%"> <ul><li><p class="para_item">SOL 101 Linear Statics — General Constraints</p></li><li><p class="para_item">SOL 101 Linear Statics — Subcase Constraints</p></li><li><p class="para_item">SOL 101 Superelement</p></li><li><p class="para_item">SOL 101 Adaptive</p></li><li><p class="para_item">SOL 106 Nonlinear Statics — Global Constraints</p></li><li><p class="para_item">SOL 106 Nonlinear Statics — Subcase Constraints</p></li><li><p class="para_item">SOL 129 Nonlinear Transient Response</p></li><li><p class="para_item">SOL 401 Multi-Step Nonlinear</p></li><li><p class="para_item">SOL 601,106 Advanced Nonlinear Statics</p></li><li><p class="para_item">SOL 601,129 Advanced Nonlinear Transient</p></li><li><p class="para_item">SOL 701 Explicit Advanced Nonlinear Analysis</p></li></ul> </span>
+    <p> When SOL 401 is chosen as a static event, only one time step can be selected as excitation of the event. When multiple excitations are created, then the durability solution is superimposed. Therefore, transient loads can not be selected here.</p>
+
+    <p> Transient event supports the following solutions:</p>
+    <span style="font-size:75%"> <ul><li><p class="para_item">SOL 103 Flexible Body</p></li><li><p class="para_item">SOL 106 Nonlinear Statics — Global Constraints</p></li><li><p class="para_item">SOL 106 Nonlinear Statics — Subcase Constraints</p></li><li><p class="para_item">SOL 109 Direct Transient Response</p></li><li><p class="para_item">SOL 112 Modal Transient Response</p></li><li><p class="para_item">SOL 129 Nonlinear Transient Response</p></li><li><p class="para_item">SOL 401 Multi-Step Nonlinear</p></li><li><p class="para_item">SOL 601,106 Advanced Nonlinear Statics</p></li><li><p class="para_item">SOL 601,129 Advanced Nonlinear Transient</p></li><li><p class="para_item">SOL 701 Explicit Advanced Nonlinear Analysis</p></li></ul></span>
+
+    <p> <q>A random durability event references a Response Dynamics solution process and its random event.</q></p>
+    <p> [Ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1128419:index_advanced:xid385327:id1609541]</p>
+
+    <p> In this example we chose transient event with solution SOL401-nonlinear dynamics. </p>
+</ul> <br>
+
+<figure>
+<img src="NXDurability/06-transoln.png" width="35%">
+<figcaption> Fig: (4a) In the Transient Durability Event tab selct the solution based on transient loading, here SOL 401. (4b) Select the subcase, here it is subcase-nonlinear dynamics. (4c) Edit the durability objects such as strength, fatigue etc. as explained below. </figcaption>
+    </figure> <br>
+
+<h4> Durability Objects : </h4>
+
+<div style="font-size:75%"> <table cellspacing="10" width="95%"><tbody><tr><td valign="top"><p class="defObject">Strength durability object</p></td><td valign="top"><p class="para_defMeaning">Defines requests for stress criterion, stress type, and strength output.</p></td></tr><tr><td valign="top"><p class="defObject">Fatigue durability object</p></td><td valign="top"><p class="para_defMeaning">Defines fatigue life settings, fatigue life output requests, fatigue safety factor settings, and fatigue safety factor output requests.</p></td></tr><tr><td valign="top"><p class="defObject">Random fatigue durability object</p></td><td valign="top"><p class="para_defMeaning">Defines random fatigue settings and fatigue life output requests.</p></td></tr><tr><td valign="top"><p class="defObject">Axis search durability object</p></td><td valign="top"><p class="para_defMeaning">Defines the stress axis method and settings for calculating stress damage propagation.</p></td></tr><tr><td valign="top"><p class="defObject">Solve options durability object</p></td><td valign="top"><p class="para_defMeaning">Defines element and material overrides. If you select only a portion of your model to perform the durability analysis, you reduce the solve time. You can override the material specified on the model if either of the following conditions is true:</p><ul><li><p class="para_defMeaning">All the appropriate durability and fatigue material properties are not set in the FEM file.</p></li><li><p class="para_defMeaning">You need to perform what-if scenarios.</p></li></ul></td></tr></tbody></table>
+<p>[Ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1128419:index_advanced:xid385327:xid452758]</p></div> <br>
+
+
+<p> Click on Edit Strength Settings, which leads to Strength tab. </p>
+    <br>
+
+<h4>Strength evaluation:</h4>
+<ul>
+<p> Durability solver can evaluate: strength safety factor (SSF) and Margin of Safety (MS).</p>
+<p> SSF = max [Stress criterion / max(Stress(ti))] </p>
+<p> MS = (SSF/FS - 1) x 100 %. (FS = factor of safety) </p>
+    <p> [ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1128419:index_advanced:xid385327:id635096:id624901]</p>
+    </ul> <br>
+
+<figure>
+<img src="NXDurability/07-strength.png" width="35%">
+<figcaption> Fig: (6) In order to evaluate SSF and MS, one of the failure criteria stress needs to be selected. Here, von-Mises stress is selected. However, Strength outputs are not ticked. So these will not be evaluated in this example. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/08-select.png" width="35%">
+<figcaption> Fig: (7) Click on Edit Fatigue Settings, which leads to Fatigue tab. </figcaption>
+    </figure> <br>
+
+<h4>Fatigue life criteria :</h4>
+<ul>
+    <p> In the fatigue tab we set the criterias to evaluate the life and damage due to fatigue. Make sure you have already defined the S-N curve in the material fatigue properties. (E-N curve is defined if strain based method is used.)</p>
+    <div style="font-size=75%"> <table align="center" border="1" cellpadding="2" cellspacing="1"><colgroup span="1"><col span="1"><col span="2"><col span="1"><col span="3"></colgroup><tbody><tr><th align="center" bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Fatigue life criteria</p></th><th bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Fatigue evaluation</p></th><th align="center" bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Fatigue application</p></th><th align="center" bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Mean stress effect</p></th><th align="center" bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Plate thickness correction</p></th><th align="center" bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Notch factor</p></th><th align="center" bgcolor="silver" colspan="1" rowspan="1" valign="top"><p class="para_th_last">Material type</p></th></tr><tr><td colspan="1" rowspan="1"><p class="para_td_last"><b class="uiTerm">Smith-Watson-Topper</b></p></td><td colspan="1" rowspan="1"><p class="para_td_last">Strain-based</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Low cycle</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Included</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Not applicable</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Isotropic</p></td></tr><tr><td colspan="1" rowspan="1"><p class="para_td_last"><b class="uiTerm">Strain Life Maximum Principal</b></p></td><td colspan="1" rowspan="1"><p class="para_td_last">Strain-based</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Low cycle</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Not applicable</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Isotropic</p></td></tr><tr><td colspan="1" rowspan="1"><p class="para_td_last"><b class="uiTerm">Strain Life Maximum Shear</b></p></td><td colspan="1" rowspan="1"><p class="para_td_last">Strain-based</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Low cycle</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Not applicable</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Not applicable</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Isotropic</p></td></tr><tr><td colspan="1" rowspan="1"><p class="para_td_last"><b class="uiTerm">Stress Life</b></p></td><td colspan="1" rowspan="1"><p class="para_td_last">Stress-based</p></td><td colspan="1" rowspan="1"><p class="para_td_last">High cycle</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Isotropic</p></td></tr><tr><td colspan="1" rowspan="1"><p class="para_td_last"><b class="uiTerm">BWI</b></p></td><td colspan="1" rowspan="1"><p class="para_td_last">Stress-based</p></td><td colspan="1" rowspan="1"><p class="para_td">Low cycle</p><p class="para_td_last">High cycle</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Not applicable</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Isotropic</p></td></tr><tr><td colspan="1" rowspan="1"><p class="para_td_last"><b class="uiTerm">TWI</b></p></td><td colspan="1" rowspan="1"><p class="para_td_last">Stress-based</p></td><td colspan="1" rowspan="1"><p class="para_td">Low cycle</p><p class="para_td_last">High cycle</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Optional</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Not applicable</p></td><td colspan="1" rowspan="1"><p class="para_td_last">Isotropic</p></td></tr></tbody></table></div>
+    <p> [Ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1128419:index_advanced:xid385327:id635096:id624881]</p>
+    <p> In this example we chose stress life method, as it is based on S-N curve. For more information of S-N curve based method ref: https://community.sw.siemens.com/s/article/what-is-a-sn-curve.</p>
+    <p> Stress life method is suitable when stress and strain remain in the elastic region. Strain life methods take effect of both the elastic and plastic regions into account. [Ref: https://community.sw.siemens.com/s/article/The-Strain-Life-Approach] </p>
+    <p> Strain life methods above are suitable for low cycle fatigue analysis. Stress life method with user input S-N curve is suitable for both low cycle and high cycle fatigue. </p>
+</ul> <br>
+
+
+
+<figure>
+<img src="NXDurability/09-criterion.png" width="35%">
+<figcaption> Fig: (8) As described above, stress life method is chosen as fatigue life criterion. </figcaption>
+    </figure> <br>
+
+<h4> Stress Life Method - Mean Stress Effect</h4>
+<ul>
+    <p> S-N curves are defined for zeo mean stress. However, for materials under tensile mean stress, the fatigue life is reduced. To take the effect of non-zeo mean stress effect several methods are available.</p>
+
+    <div> <ul><li><p class="para_item">Goodman method</p><p align="center"><img align="bottom" src="NXDurability/eq_goodman_method.gif"></p></li><li><p class="para_item">Soderberg method</p><p align="center"><img align="bottom" src="NXDurability/eq_soderberg_method.gif"></p></li><li><p class="para_item">Gerber method</p><p align="center"><img align="bottom" src="NXDurability/eq_gerber_method.gif"></p></li><li><p class="para_item">Morrow method</p><p align="center"><img align="bottom" src="NXDurability/eq_morrow_method.gif"></p></li></ul> </div>
+        <p>[Ref: <br> https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1604722 ; https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1128419:index_advanced:xid385327:id635096:id624881:id975729]</p>
+
+</ul> <br>
+
+<figure>
+<img src="NXDurability/10-meanstress.png" width="35%">
+<figcaption> Fig: (9) As explained above, Goodman method is used for stress life method with mean stress effect. </figcaption>
+    </figure> <br>
+
+<h4> TCF; Notch factor </h4>
+<ul>
+    <p> Thickness correction factor (TCF) is plate thickness ration raised to the power of plate thickness exponent. When this option is chosen, the stress range is divided by TCF before calculating the life. </p>
+    <p> In this example we don't know the plate thickness ratio and plate thickness exponent. We do not chose this option.</p>
+    <p> [TFC Ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1128419:index_advanced:xid385327:id635096:id624881:id1190369]</p>
+    <p> Similarly we do not know the notch factor and we do not chose this option.</p>
+    <p> [Notch factor reference: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:xid1604229]</p>
+</ul> <br>
+
+<h4>Cyclic stress strain model : </h4>
+<ul>
+    <figure>
+<img src="NXDurability/cyclic_stress_strain_models.gif" width="35%">
+<figcaption> Fig: 1- Ramberg-Osgood model, 2- Power hardening model, 3- linear model, 4- monotonic curve, 5- cyclic yield, 6- monotonic yield. <br> [Ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:id980342] </figcaption>
+    </figure>
+    <p> Note: cyclic stress strain model is supposed to work with notch factor, however, filling this is mandatory in the fatigue tab. We chose Ramberg-Osgood model. Cyclic strength coefficient must be filled in the material properties. When this property is not filled, durability solver uses default value 1e+12.</p>
+</ul> <br>
+
+<figure>
+<img src="NXDurability/11-cyclic.png" width="35%">
+<figcaption> Fig: (10a) As discussed above, Ramberg-Osgood method is chosen as cyclic stress strain model. (10b) Select event life and/or event damage as output. Note that event life is inverse of event damage. (10c) Under Fatigue Safety Factor, FSF and failure index can requested as outputs. Here, we do not request these outputs.  (10d) Click OK. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/12-axis.png" width="35%">
+<figcaption> Fig: (11) Click on Axis Search Settings, which leads to Axis search tab. </figcaption>
+    </figure> <br>
+
+<h4> Axis Search : </h4>
+<ul>
+    <p> <q> Specifies how the primary loading direction is determined. The primary loading direction, also called the stress axis direction, is the most likely direction along which cracks would initiate. <br>
+
+Select Element Face to let the durability solver find the critical loading path of the structure.</q></p>
+
+    <p> <b>Element Face Stress Axis:</b> <br> <q> Select Uni-Axial to ignore stresses or strains acting perpendicularly to the crack propagation direction. <br>
+
+Select Bi-Axial to let the stresses or strains acting perpendicularly to the crack propagation direction contribute to the calculation of crack growth.</q></p>
+
+    <p> <b> Stress Axis Direction Search Method : </b> <br> <q> Select Principal Axis to let the solver use a statistical approach to identify the primary loading direction on element free faces. </q></p>
+    <p> [Ref: https://docs.plm.automation.siemens.com/tdoc/nx/1899/nx_help#uid:id973952]</p>
+
+    <p> Note : Since the stress history evaluated by the durability solver is dependent on the axis search method, it is clearly not the same as stress results obtained by Nastran solver. The details are to be studied. </p>
+</ul>
+
+<figure>
+<img src="NXDurability/13-axissearch.png" width="35%">
+<figcaption> Fig: (12) Chose the axis search settings as per the explanation above. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/15-datacontrol.png" width="35%">
+<figcaption> Fig: (13) In the data control settings you can chose the time interval for the transient loading. Chose option "from parent result". </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/16-solveoption.png" width="35%">
+<figcaption> Fig: (14) Click on Solve Option Settings, which leads to solve option tab. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/17-solveop.png" width="35%">
+<figcaption> Fig: (15a) Here you can override the material, if required. (15b) Click OK. (15c) Click Ok on the transient event tab. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/18-solve.png" width="35%">
+<figcaption> Fig: (16a) Finally, solve the Durability at the simulation level or at the event level to obtain results. (16b) Under event level, you can also evaulate fatigue history, which gives the stresses evaluated by the durability solver to calculate fatigue life. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/19-solve2.png" width="35%">
+<figcaption> Fig: (17) Click OK to solve. </figcaption>
+    </figure> <br>
+
+<figure>
+<img src="NXDurability/20-solved.png" width="35%">
+<figcaption> Fig: (18) Durability solver is completed. </figcaption>
+    </figure> <br>
+
+<p> View the requested outputs as results under post processing navigator. </p>
+     <br>
+
+
+</body>
+</html>
