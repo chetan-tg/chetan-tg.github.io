@@ -8,19 +8,19 @@ last_modified_at: 2026-10-09
 ## My notes
 {: .text-center }
 
-* [Master's Thesis presentation](Thesis_ppt.pdf)
+* [Master's Thesis presentation](Thesis_ppt.pdf) *<span style="color:grey; font-size:8px">, 2018</span>*
 
-* [Friction Plate Fatigue Testing](FPDT/FPDT.html)
+* [Friction Plate Fatigue Testing](FPDT/FPDT.html) *<span style="color:grey; font-size:8px">, 2019</span>*
 
-* [My First-Run Guide: FEA using SOL103 - Response Dynamics](../project_platf/rep_platform_FEA)
+* [Equations of dynamics for Planetary Gear Sets](PGS.pdf) *<span style="color:grey; font-size:8px">, 2019</span>*
 
-* [My First-Run Guide: NX Durability](../fatigue/Manual_Durability.html)
+* [Notes for Robot Skill Design Challenge](ARCS-chetan.pdf) *<span style="color:grey; font-size:8px">, 2017</span>*
 
-* [Basquin Equation](../fatigue/Basquin.html)
+* [Basquin Equation](../fatigue/Basquin.html) *<span style="color:grey; font-size:8px">, 2021</span>*
+  
+* [My First-Run Guide: FEA using SOL103 - Response Dynamics](../project_platf/rep_platform_FEA) *<span style="color:grey; font-size:8px">, 2020</span>*
 
-* [Equations of dynamics for Planetary Gear Sets](PGS.pdf)
-
-* [Notes for Robot Skill Design Challenge](ARCS-chetan.pdf)
+* [My First-Run Guide: NX Durability](../fatigue/Manual_Durability.html) *<span style="color:grey; font-size:8px">, 2021</span>*
 
 <br>
 
